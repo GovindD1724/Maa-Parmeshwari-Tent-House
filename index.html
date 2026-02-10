@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maa Parmeshwari Tent House | Event & Wedding Tent Rental</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Inline CSS -->
+    <style>
+        body { margin:0; font-family: 'Segoe UI', sans-serif; }
+        header { background: #b30059; color: #fff; padding: 15px 40px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        .logo { font-size: 24px; font-weight: bold; }
+        .logo span { color: gold; }
+        nav a { color: #fff; margin-left: 20px; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: gold; }
+        .insta { color:#fff; font-size:22px; margin-left:15px; }
+        .insta:hover { color: gold; }
+
+        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1519225421980-715cb0215aed"); background-size: cover; color:#fff; text-align:center; padding:120px 20px; }
+        .hero h1 { font-size: 36px; margin-bottom:10px; }
+        .hero p { font-size:20px; margin-bottom:20px; }
+        .btn { background: gold; padding:12px 20px; margin:10px; display:inline-block; color:#000; text-decoration:none; border-radius:5px; font-weight:bold; }
+        .whatsapp { background: #25D366; color:#fff; }
+        section { padding:60px 40px; text-align:center; }
+        .colored { background: #fff3f8; }
+        .service-box { display:grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap:20px; font-size:18px; }
+        .gallery { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap:15px; }
+        .gallery img { width:100%; border-radius:10px; }
+        form { max-width:500px; margin:auto; text-align:left; }
+        input, textarea, select, button { width:100%; padding:10px; margin:10px 0; border-radius:5px; border:1px solid #ccc; box-sizing:border-box; font-size:16px; }
+        button { background:#25D366; color:white; border:none; cursor:pointer; font-weight:bold; }
+        button:hover { background:#128C7E; }
+        iframe { width:100%; height:300px; margin:20px 0; border:0; border-radius:10px; }
+        footer { background:#b30059; color:white; text-align:center; padding:15px; }
+        h2 { margin-bottom:20px; }
+    </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="logo">Maa Parmeshwari <span>Tent House</span></div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.instagram.com/the_goivn.exe" target="_blank" class="insta"><i class="fab fa-instagram"></i></a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <h1>Beautiful Wedding & Event Tent Services</h1>
+    <p>Madeli, Dhamtari, Chhattisgarh</p>
+    <a href="tel:9179725369" class="btn">📞 Call Now</a>
+    <a href="https://wa.me/919179725369" class="btn whatsapp">💬 WhatsApp</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Maa Parmeshwari Tent House provides complete wedding and event tent solutions.
+        We offer high-quality tents, decoration, lighting, chairs, tables, and sound systems.
+        Our goal is to make your event memorable and grand.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="colored">
+    <h2>Our Services</h2>
+    <div class="service-box">
+        <div>⛺ Wedding Tent</div>
+        <div>🎪 Event Tent</div>
+        <div>🎉 Party Tent</div>
+        <div>🪑 Chairs & Tables</div>
+        <div>💡 Lighting & Decoration</div>
+        <div>🎤 Sound System</div>
+        <div>🎁 Complete Package</div>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+    <h2>Our Gallery</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Tent 1">
+        <img src="https://images.unsplash.com/photo-1505238680356-667803448bb6" alt="Tent 2">
+        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed" alt="Tent 3">
+        <img src="https://images.unsplash.com/photo-1520857014576-2c4f4c972b57" alt="Tent 4">
+    </div>
+</section>
+
+<!-- CONTACT + BOOKING -->
+<section id="contact" class="colored">
+    <h2>Contact & Online Booking</h2>
+    <p><strong>📍 Address:</strong> Madeli, Dhamtari, Chhattisgarh</p>
+    <p><strong>📞 Phone:</strong> 9179725369</p>
+    <p><strong>📧 Email:</strong> goviddewangan@gmail.com</p>
+    <p><strong>📸 Instagram:</strong> <a href="https://www.instagram.com/the_goivn.exe" target="_blank">the_goivn.exe</a></p>
+
+    <iframe 
+        src="https://maps.google.com/maps?q=Dhamtari%20Chhattisgarh&t=&z=13&ie=UTF8&iwloc=&output=embed">
+    </iframe>
+
+    <!-- WhatsApp Booking Form -->
+    <form id="bookingForm">
+        <h3>Book Your Event via WhatsApp</h3>
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="tel" id="phone" placeholder="Mobile Number" required>
+        <select id="service" required>
+            <option value="">Select Service</option>
+            <option>Wedding Tent</option>
+            <option>Event Tent</option>
+            <option>Party Tent</option>
+            <option>Lighting & Decoration</option>
+            <option>Sound System</option>
+            <option>Complete Package</option>
+        </select>
+        <input type="date" id="date" required>
+        <textarea id="details" placeholder="Event Address / Details"></textarea>
+        <button type="submit">Book via WhatsApp</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 Maa Parmeshwari Tent House | All Rights Reserved
+</footer>
+
+<!-- Inline JS -->
+<script>
+document.getElementById("bookingForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
+    const service = document.getElementById("service").value;
+    const date = document.getElementById("date").value;
+    const details = document.getElementById("details").value;
+    const waNumber = "9179725369";
+    const message = `Hello Maa Parmeshwari Tent House,%0A%0AI want to book your services.%0A%0AName: ${name}%0APhone: ${phone}%0AService: ${service}%0ADate: ${date}%0ADetails: ${details}`;
+    const waLink = `https://wa.me/${waNumber}?text=${message}`;
+    window.open(waLink, "_blank");
+});
+</script>
+
+</body>
+</html>
